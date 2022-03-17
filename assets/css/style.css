@@ -109,6 +109,7 @@ a,
 }
 
 .proyectos-modal .close-modal {
+    z-index: 1;
     position: fixed;
     top: 25px;
     right: 25px;
@@ -124,7 +125,7 @@ a,
 
 .proyectos-modal .close-modal .lr {
     z-index: 1051;
-    width: 1px;
+    width: 3px;
     height: 75px;
     margin-left: 35px;
     background-color: #333;
@@ -135,7 +136,7 @@ a,
 
 .proyectos-modal .close-modal .lr .rl {
     z-index: 1052;
-    width: 1px;
+    width: 3px;
     height: 75px;
     background-color: #333;
     -webkit-transform: rotate(90deg);
